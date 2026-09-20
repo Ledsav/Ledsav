@@ -41,11 +41,6 @@ The three things in that sentence up there are genuinely the three things I keep
 
 Mostly **TypeScript** and **React** when something needs a front end, **Python** when it needs to think, **C#** and **Unity** when it needs to be a world, and **MATLAB** when it's a signal. Around that: Node, Kotlin, Java, Docker, Google Cloud and Azure. The interesting parts are usually machine learning, signal processing, VR, WebGL and healthcare — which is to say, the places where the biology and the code have to agree with each other.
 
-<p align="center">
-  <img height="160" alt="GitHub stats" src="https://github-readme-stats.vercel.app/api?username=Ledsav&show_icons=true&hide_border=true&hide_title=true&bg_color=00000000&icon_color=ff5c33&title_color=ff5c33&text_color=808080" />
-  <img height="160" alt="Top languages" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Ledsav&layout=compact&hide_border=true&hide_title=true&bg_color=00000000&title_color=ff5c33&text_color=808080" />
-</p>
-
 ---
 
 ### Elsewhere
