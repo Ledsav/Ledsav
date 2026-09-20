@@ -1,17 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="340" viewBox="0 0 1200 340" role="img" aria-label="Alberto Vald&#233;s Rey &#8212; I build software that heals, simulates worlds, connects people.">
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="340" viewBox="0 0 1200 340" role="img" aria-label="Alberto Vald&#233;s Rey. I build software that heals, simulates worlds, connects people.">
   <defs>
     <radialGradient id="glow" cx="14%" cy="6%" r="72%">
-      <stop offset="0%" stop-color="#ff5c33" stop-opacity="0.20" />
-      <stop offset="55%" stop-color="#ff5c33" stop-opacity="0.05" />
+      <stop offset="0%" stop-color="#ff5c33" stop-opacity="0.22" />
+      <stop offset="55%" stop-color="#ff5c33" stop-opacity="0.06" />
       <stop offset="100%" stop-color="#ff5c33" stop-opacity="0" />
     </radialGradient>
-    <linearGradient id="trace" x1="0" y1="0" x2="1" y2="0">
+    <linearGradient id="fade" x1="0" y1="0" x2="1" y2="0">
       <stop offset="0%" stop-color="#ff5c33" stop-opacity="0" />
-      <stop offset="22%" stop-color="#ff5c33" stop-opacity="0.5" />
-      <stop offset="78%" stop-color="#ff5c33" stop-opacity="0.5" />
+      <stop offset="18%" stop-color="#ff5c33" stop-opacity="1" />
+      <stop offset="82%" stop-color="#ff5c33" stop-opacity="1" />
       <stop offset="100%" stop-color="#ff5c33" stop-opacity="0" />
     </linearGradient>
+    <mask id="fademask">
+      <rect width="1200" height="340" fill="url(#fade)" />
+    </mask>
     <clipPath id="card">
       <rect x="0" y="0" width="1200" height="340" rx="18" />
     </clipPath>
@@ -19,15 +22,30 @@
 
   <g clip-path="url(#card)">
     <rect width="1200" height="340" fill="#0e0f11" />
-    <rect width="1200" height="340" fill="url(#glow)" />
 
-    <!-- skin-conductance trace: a nod to the thesis -->
-    <path
-      d="M 0 316 C 80 316, 118 313, 158 296 C 198 279, 228 312, 298 316 C 358 319, 378 317, 418 302
-         C 453 289, 468 292, 498 312 C 538 319, 558 321, 618 319 C 678 317, 698 284, 758 270
-         C 798 261, 828 292, 878 308 C 928 320, 958 318, 1008 314 C 1058 310, 1088 300, 1128 286
-         C 1158 275, 1180 283, 1200 290"
-      fill="none" stroke="url(#trace)" stroke-width="2" stroke-linecap="round" />
+    <rect width="1200" height="340" fill="url(#glow)">
+      <animate attributeName="opacity" values="0.65;1;0.65" dur="7s" repeatCount="indefinite" />
+    </rect>
+
+    <g mask="url(#fademask)">
+      <!-- static trace -->
+      <path id="scr"
+        d="M 0 316 C 80 316, 118 313, 158 296 C 198 279, 228 312, 298 316 C 358 319, 378 317, 418 302
+           C 453 289, 468 292, 498 312 C 538 319, 558 321, 618 319 C 678 317, 698 284, 758 270
+           C 798 261, 828 292, 878 308 C 928 320, 958 318, 1008 314 C 1058 310, 1088 300, 1128 286
+           C 1158 275, 1180 283, 1200 290"
+        fill="none" stroke="#ff5c33" stroke-opacity="0.28" stroke-width="2" stroke-linecap="round" />
+      <!-- travelling pulse -->
+      <path
+        d="M 0 316 C 80 316, 118 313, 158 296 C 198 279, 228 312, 298 316 C 358 319, 378 317, 418 302
+           C 453 289, 468 292, 498 312 C 538 319, 558 321, 618 319 C 678 317, 698 284, 758 270
+           C 798 261, 828 292, 878 308 C 928 320, 958 318, 1008 314 C 1058 310, 1088 300, 1128 286
+           C 1158 275, 1180 283, 1200 290"
+        fill="none" stroke="#ff5c33" stroke-width="2.5" stroke-linecap="round"
+        stroke-dasharray="150 1400">
+        <animate attributeName="stroke-dashoffset" from="1550" to="0" dur="4.5s" repeatCount="indefinite" />
+      </path>
+    </g>
 
     <text x="64" y="124"
           font-family="Anton, 'Arial Black', 'Helvetica Neue', Impact, sans-serif"
