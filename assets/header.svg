@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="340" viewBox="0 0 1200 340" role="img" aria-label="Alberto Vald&#233;s Rey &#8212; I build software that heals, simulates worlds, connects people.">
+  <defs>
+    <radialGradient id="glow" cx="14%" cy="6%" r="72%">
+      <stop offset="0%" stop-color="#ff5c33" stop-opacity="0.20" />
+      <stop offset="55%" stop-color="#ff5c33" stop-opacity="0.05" />
+      <stop offset="100%" stop-color="#ff5c33" stop-opacity="0" />
+    </radialGradient>
+    <linearGradient id="trace" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#ff5c33" stop-opacity="0" />
+      <stop offset="22%" stop-color="#ff5c33" stop-opacity="0.5" />
+      <stop offset="78%" stop-color="#ff5c33" stop-opacity="0.5" />
+      <stop offset="100%" stop-color="#ff5c33" stop-opacity="0" />
+    </linearGradient>
+    <clipPath id="card">
+      <rect x="0" y="0" width="1200" height="340" rx="18" />
+    </clipPath>
+  </defs>
+
+  <g clip-path="url(#card)">
+    <rect width="1200" height="340" fill="#0e0f11" />
+    <rect width="1200" height="340" fill="url(#glow)" />
+
+    <!-- skin-conductance trace: a nod to the thesis -->
+    <path
+      d="M 0 316 C 80 316, 118 313, 158 296 C 198 279, 228 312, 298 316 C 358 319, 378 317, 418 302
+         C 453 289, 468 292, 498 312 C 538 319, 558 321, 618 319 C 678 317, 698 284, 758 270
+         C 798 261, 828 292, 878 308 C 928 320, 958 318, 1008 314 C 1058 310, 1088 300, 1128 286
+         C 1158 275, 1180 283, 1200 290"
+      fill="none" stroke="url(#trace)" stroke-width="2" stroke-linecap="round" />
+
+    <text x="64" y="124"
+          font-family="Anton, 'Arial Black', 'Helvetica Neue', Impact, sans-serif"
+          font-size="66" font-weight="400" letter-spacing="1.5" fill="#f0eee9">ALBERTO VALD&#201;S REY</text>
+
+    <rect x="64" y="150" width="104" height="3" fill="#ff5c33" />
+
+    <text x="64" y="212"
+          font-family="'Instrument Serif', Georgia, 'Times New Roman', serif"
+          font-style="italic" font-size="37" fill="#e9e7e2">I build software that heals, simulates worlds, connects people.</text>
+
+    <text x="64" y="258"
+          font-family="Archivo, 'Helvetica Neue', Arial, sans-serif"
+          font-size="16" letter-spacing="2.4" fill="#e9e7e2" fill-opacity="0.5">LUXEMBOURG&#160;&#160;&#183;&#160;&#160;FULL STACK DEVELOPER&#160;&#160;&#183;&#160;&#160;BIOMEDICAL ENGINEER</text>
+  </g>
+</svg>
