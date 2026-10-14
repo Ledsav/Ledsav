@@ -15,6 +15,7 @@ Now I build medical software in Luxembourg by day. By night I simulate evolution
 - 🔬 &nbsp;Published in IEEE: *Exploring Emotional Responses in Virtual Reality Through Skin Conductance Signal*
 - 🌱 &nbsp;Currently building [`qrg-framework`](https://github.com/Ledsav/qrg-framework), a quantized relational grid: foundations, implementations, benchmarks
 - ⚙️ &nbsp;I use daily: `.ts`, `.tsx`, `.py`, `.cs`, `.m`
+- 🌧️ &nbsp;Wrote up the [Directional Rain Exposure Model](https://github.com/Ledsav/rain-simulation), so the run or walk question finally has a vector answer
 - 💬 &nbsp;Ask me about signal processing, VR, generative simulation, or volleyball
 
 ---
@@ -47,11 +48,11 @@ Now I build medical software in Luxembourg by day. By night I simulate evolution
   <a href="https://volley.albertovaldesrey.com/"><b>Live</b></a> &nbsp;·&nbsp; <a href="https://github.com/Ledsav/volley-skills">Code</a>
 </td>
 <td width="50%" valign="top">
-  <a href="https://popglobe.netlify.app/"><img src="assets/projects/popglobe.jpg" alt="PopGlobe" width="100%" /></a>
-  <h4>PopGlobe</h4>
-  Guess the population of cities around the world, then find out how far your instincts about global urbanisation really are from reality.
+  <a href="https://www.albertovaldesrey.com/rain-simulation/"><img src="assets/projects/soak.jpg" alt="Soak" width="100%" /></a>
+  <h4>Soak</h4>
+  Walk or run in the rain? A drop by drop simulation of how wet you get, backed by a fully vectorial exposure model. Short answer: run, unless the wind is behind you.
   <br><br>
-  <a href="https://popglobe.netlify.app/"><b>Live</b></a> &nbsp;·&nbsp; <a href="https://github.com/Ledsav/city-population">Code</a>
+  <a href="https://www.albertovaldesrey.com/rain-simulation/"><b>Live</b></a> &nbsp;·&nbsp; <a href="https://github.com/Ledsav/rain-simulation">Code</a>
 </td>
 </tr>
 </table>
@@ -62,7 +63,9 @@ Now I build medical software in Luxembourg by day. By night I simulate evolution
 | :--- | :--- |
 | [**thesis-unity**](https://github.com/Ledsav/thesis-unity) | Emotional response in VR, read from skin conductance. The work behind the [IEEE paper](https://ieeexplore.ieee.org/document/10405636). |
 | [**flow-field**](https://github.com/Ledsav/flow-field) | Fluid force fields you can push around with a cursor. |
-| [**rain-simulation**](https://github.com/Ledsav/rain-simulation) | A directional rain exposure model. The running in rain question, settled. |
+| [**popglobe**](https://popglobe.netlify.app/) | Guess city populations and see how far your instincts are from reality. ([code](https://github.com/Ledsav/city-population)) |
+| [**volley-positions**](https://github.com/Ledsav/volley-positions) | Spike & Learn: a to scale court for learning 5-1 rotation overlap rules. Drag players and watch legality update live. |
+| [**y-combinator-analysis**](https://github.com/Ledsav/y-combinator-analysis) | A reproducible pipeline scoring 4,844 YC companies on a 0 to 100 technical and market Complexity Index. |
 | [**bump-music**](https://www.albertovaldesrey.com/bump-music) | Tilt your phone and the accelerometer reshapes the track as it plays. |
 | [**fit-snapshot**](https://github.com/Ledsav/fit-snapshot) | One framed photo a day, so change too slow to notice becomes obvious. |
 | [**beatcut**](https://github.com/Ledsav/beatcut) | Slideshow videos cut to the beat, auto centred on the faces it detects. |
